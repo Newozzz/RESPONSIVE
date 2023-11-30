@@ -1,0 +1,138 @@
+@media (width < 480px) {
+    body {
+        background-color: #31304D;
+
+    }
+
+    #small {
+        display: flex;
+        font-size: 22px;
+        box-sizing: border-box;
+        padding: 30px;
+        border: 3px solid black;
+        margin-bottom: 20px;
+    }
+    #small h1 {
+        font-size: 20px;
+    }
+
+    #medium {
+
+        display: flex;
+        font-size: 22px;
+        box-sizing: border-box;
+        padding: 30px;
+        border: 3px solid black;
+        margin-bottom: 20px;
+    }
+    #medium h2 {
+        font-size: 20px;
+    }
+
+    #large {
+
+        display: flex;
+        font-size: 22px;
+        box-sizing: border-box;
+        padding: 30px;
+        border: 3px solid black;
+    }
+    #large h3 {
+        font-size: 20px;
+    }
+
+}
+
+@media (480px <=width <=1024px) {
+    body {
+        background-color: #B6BBC4;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #small {
+        display: flex;
+        width: 66%;
+        font-size: 30px;
+        box-sizing: border-box;
+        padding: 30px;
+        border: 3px solid black;
+        margin-bottom: 20px;
+    }
+    #small h1 {
+        font-size: 20px;
+    }
+
+    #medium {
+        display: flex;
+        font-size: 20px;
+        box-sizing: border-box;
+        padding: 30px;
+        border: 3px solid black;
+        width: 33%;
+        margin-bottom: 20px;
+    }
+    #medium h2 {
+        font-size: 20px;
+    }
+
+
+    #large {
+        display: flex;
+        width: 100%;
+        font-size: 30px;
+        box-sizing: border-box;
+        padding: 30px;
+        border: 3px solid black;
+    }
+    #large h3 {
+        font-size: 20px;
+    }
+
+
+
+}
+
+@media (width > 1024px) {
+    body {
+        background-color: #F0ECE5;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #small {
+        display: flex;
+        font-size: 30px;
+        box-sizing: border-box;
+        padding: 30px;
+        border: 3px solid black;
+        margin-right: 20px;
+    }
+    #small h1 {
+        font-size: 20px;
+    }
+
+    #medium {
+        display: flex;
+        font-size: 30px;
+        box-sizing: border-box;
+        padding: 30px;
+        border: 3px solid black;
+        margin-right: 20px;
+    }
+    #medium h2 {
+        font-size: 20px;
+    }
+
+    #large {
+        display: flex;
+        font-size: 30px;
+        box-sizing: border-box;
+        padding: 30px;
+        border: 3px solid black;
+        margin-right: 20px;
+    }
+    #large h3 {
+        font-size: 20px;
+    }
+}
